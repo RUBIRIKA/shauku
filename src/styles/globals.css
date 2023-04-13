@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*html, body, heading*/
+
+
+@layer base{
+  body {
+    @apply bg-[#050717] text-white;
+  }
+
+  header {
+    @apply fixed top-0 z-50 flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6;
+  }
+}
+
+
+/*custom classname*/
+@layer components {
+  .hlink {
+    @apply cursor-pointer text-sm font-light text-[#e5e5e5] transition duration-[.4s] hover:text-[#676766]
+  }
+}
+
+.product {
+  @apply flex relative w-52 h-32 sm:h-36 border-[2px] rounded-lg border-[#f9f9f9] border-opacity-10 cursor-pointer shadow-xl
+        overflow-hidden hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300
+}
