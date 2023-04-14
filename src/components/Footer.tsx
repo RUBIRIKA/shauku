@@ -7,7 +7,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 function Footer() {
   return (
     <div>
-      <div className=" grid grid-cols-1   md:grid-cols-4 gap-y-10 px-32 py-14  text-gray-100">
+      <div className=" grid grid-cols-1 px-8  md:grid-cols-4 gap-y-10 lg:px-44 xl:px-44 py-14  text-gray-100">
         <div className="space-y-4 text-xs text-gray-300 ">
           <h4 className="font-bold"> COMPANY </h4>
           <p className=" hover:scale-105 transition transform duration-200 ease-out">

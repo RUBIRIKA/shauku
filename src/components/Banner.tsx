@@ -3,6 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 
 
 
+
 function Banner() {
   return (
     <section className="">
@@ -28,6 +29,9 @@ function Banner() {
             </div>
 
           </Carousel>
+
+
+
        
     </section>
   )

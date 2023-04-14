@@ -24,6 +24,7 @@ function Header() {
     })
 
   return (
+    <div>
     <header className={`${isScrolled && 'bg-[#03040a]'}`}>
     <div className="flex items-center space-x-2 md:space-x-10 ">
         <img src="/images/logo.png" width={100} height={100} className="cursor-pointer object-contain"/>
@@ -39,7 +40,13 @@ function Header() {
      <button className="ml-auto border px-4 py-1.5 rounded-lg font-medium tracking-wide hover:bg-[#dfac13]">Sign-In</button>
     </div>
 
+    
+
     </header>
+     <div className="">
+    <hr className=" line   border-gray-800 sm:mx-auto dark:border-gray-700 mb-10 " />
+    </div>
+    </div>
   )
 }
 

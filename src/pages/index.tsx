@@ -6,6 +6,8 @@ import Footer from '@/components/Footer'
 import Title from '@/components/Title'
 import Products from '@/components/Products'
 import Homebody from '@/components/Homebody'
+import Slider from '@/components/Slider'
+import Slidertwo from '@/components/Slidertwo'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,10 +18,13 @@ export default function Home() {
        <Header />
       <main >
         {/*Banner*/}
-        <Banner />
-        <Title />
+        <Slider />
+        <Slidertwo />
+       {/*<Banner />*/} 
+       {/* <Title />*/}
+       <Products />
         <section>
-         
+        
          
          
         </section>
