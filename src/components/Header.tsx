@@ -72,7 +72,7 @@ function Header() {
             <li className="p-4 text-3xl font-bold"><Link href="/">Products & Services</Link></li>
             <li className="p-4 text-3xl font-bold"><Link href="/">Hospitality</Link></li>
             <li className="p-4 text-3xl font-bold"><Link href="/">Original Creation</Link></li>
-            <li className="p-4 text-3xl font-bold"><Link href="/">Account</Link></li>
+            <li className="p-4 text-3xl font-bold"><Link href="/registerhome">Account</Link></li>
         </ul>
         </div>
 
