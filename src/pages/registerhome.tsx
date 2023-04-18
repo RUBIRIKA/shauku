@@ -11,7 +11,7 @@ function registerhome() {
        <div className="bg-black  w-full h-full lg:bg-opacity-90">
          <div><Header2 /></div>
           <div className="flex mt-10 justify-center"><Title /></div>
-          <div><div className=" mt-12 px-8 pb-10 mx-auto mb-10 gap-2 columns-4 space-y-2 md:space-y-3 md:gap-3 lg:space-y-3 lg:gap-3 xl:space-y-5  xl:gap-5 2xl:space-y-5  2xl:gap-5  ">
+          <div><div className=" mt-12 px-8 pb-10 mx-auto mb-10 gap-2 columns-2 md:columns-3 lg:columns-4 xl:columns-4 space-y-2 md:space-y-3 md:gap-3 lg:space-y-3 lg:gap-3 xl:space-y-5  xl:gap-5 2xl:space-y-5  2xl:gap-5  ">
         
           
         <img src="/images/b2.jpg" className="cursor-pointer rounded bg-black bg-opacity-90" alt="" />
