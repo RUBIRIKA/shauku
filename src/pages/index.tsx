@@ -8,6 +8,9 @@ import Products from '@/components/Products'
 import Homebody from '@/components/Homebody'
 import Slider from '@/components/Slider'
 import Slidertwo from '@/components/Slidertwo'
+import Homecards from '@/components/Homecards'
+import Header2 from '@/components/Header2'
+import Grid from '@/components/Grid'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,23 +19,27 @@ export default function Home() {
     <div className="relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] lg:h-[140vh]">
        {/*Header*/}
        <Header />
+        {/* <Header2 />*/} 
+      
       <main >
         {/*Banner*/}
         <Slider />
         <Slidertwo />
+        <Grid />
+       
        {/*<Banner />*/} 
        {/* <Title />*/}
-       <Products />
+    
         <section>
         
          
          
         </section>
-       
+        <Footer />
       </main>
        {/*Modal*/}
 
-       <Footer />
+      
     </div>
   )
 }

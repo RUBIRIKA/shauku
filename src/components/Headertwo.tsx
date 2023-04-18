@@ -2,6 +2,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import Link from 'next/link';
 import { useEffect, useState } from 'react'
+import Image from 'next/image';
 
 function Headertwo() {
 
@@ -39,7 +40,7 @@ function Headertwo() {
       <SearchIcon className="hidden h-6 w-6 sm:inline" />
       <NotificationsIcon className="h-6 w-6"/>
       <Link href="/account">
-         <img src="/images/avatar.png" alt="" className="cursor-pointer rounded h-12 w-12" />
+         <Image src="/images/avatar.png" alt="" className="cursor-pointer rounded h-12 w-12"  />
       </Link>
     </div>
 

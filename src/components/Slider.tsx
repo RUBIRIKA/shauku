@@ -13,8 +13,7 @@ function Slider() {
        modules={[Navigation, Pagination, Scrollbar, A11y]}
        
        navigation
-       pagination={{ clickable: false }}
-       scrollbar={{ draggable: false }}
+     
        onSwiper={(swiper) => console.log(swiper)}
        onSlideChange={() => console.log('slide change')}
 
