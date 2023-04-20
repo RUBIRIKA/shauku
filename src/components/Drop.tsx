@@ -37,11 +37,11 @@ function Drop() {
    <div className=" rounded border px-2 py-1">
 
      <ul>
-        {  Menu?.map((menu) => (
+        {  Menu?.map((menu,i) => (
         
        
           
-            <li>{menu.title}  </li>
+            <li key={i}>{menu.title}  </li>
          
         
         

@@ -125,9 +125,9 @@ function Menu() {
   return (
     <div className="flex pt-4 space-x-4 pl-2  ">
       
-      {  Menu?.map((menu) => (
+      {  Menu?.map((menu,i) => (
         
-        <div className="border-2 border-gray-200 rounded-2xl h-10  p-2  hover:scale-110 transition transform duration-200 ease-out">
+        <div key={i} className="border-2 border-gray-200 rounded-2xl h-10  p-2  hover:scale-110 transition transform duration-200 ease-out">
           <a href="" className="flex items-center  space-x-3 ">
           {menu.icon}
           <p className="font-semibold mt-1 text-sm ">  {menu.title}  </p>
